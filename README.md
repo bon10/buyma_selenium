@@ -30,3 +30,8 @@ $ php composer.phar install
 $ php buyma.php
 
 ```
+
+## 参考サイト
+
+* [Qiita - seleniumを使ってPHPでChromeの自動操作をする](https://qiita.com/Rasukarusan/items/0ca204d5b0f0fb876252)
+* [Qiita - PHPでブラウザ自動化](https://qiita.com/tsuuuuu_san/items/61379b797878d0e0f4d7)
