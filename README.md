@@ -13,20 +13,30 @@ http://chromedriver.chromium.org/downloads
 
 ## 確認環境
 
-OS:      macOS High Sierra 10.13.5
-Browser: Chrome 67.0.3396.99
-Java: Java(TM) SE Runtime Environment (build 1.8.0_152-b16)
-      Java HotSpot(TM) 64-Bit Server VM (build 25.152-b16, mixed mode)
+OS:       macOS High Sierra 10.13.5
+Browser:  Chrome 67.0.3396.99
+Java:     Java(TM) SE Runtime Environment (build 1.8.0_152-b16)
+          Java HotSpot(TM) 64-Bit Server VM (build 25.152-b16, mixed mode)
 Selenium: ChromeDriver 2.40
-          Selenium Standalone 3.4.0
+PHP:      PHP 7.1.16 (cli) (built: Apr  1 2018 13:14:42) ( NTS )
 
 ## 手順
 
 ```
+# git clone
+$ git clone https://github.com/bon10/buyma_selenium.git
+$cd buyma_selenium
+
 # 初回のみ依存ライブラリをcomposerを利用してインストール
 $ php composer.phar install
 
-# 実行
+# buyma.phpをエディタで開き、メールアドレスとパスワードを編集してください！
+// 定数定義
+define ('LOGIN_MAIL', 'your mail address');
+define ('LOGIN_PASS', 'your password');
+
+
+# 上記保存後、実行
 $ php buyma.php
 
 ```
